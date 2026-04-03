@@ -3,6 +3,7 @@
 $hostname = "localhost";
 $username = "fulano";
 $password = "123456";
+$dbname = "meu_bd";
 $usertable = "aluno";
 $key = $_POST['id'];
 
