@@ -21,11 +21,11 @@ $result = mysqli_query($conn,$query);
 if ($result) {
     while($row = mysqli_fetch_array($result)){
         $name = $row['nome'];
-        $email = $row['email'];
-        $nasc = $row['nascimento'];
-        echo "Nome: " . $name  .   "<br>Nascimento:"  . $nasc . "<br>Email:" . $email . "  <br>";
+        $email = $row['email']  '';
+        $cpf = $row['cpf'] '';
+        echo "Nome: " . $name . "<br>Email: " . $email . "<br>CPF: " . $cpf . "<br>";
 
 
     }
 }
-else echo "Not Users founds in this table";
+else echo "Nenhum usuario com esse ID encontrado na tabela";

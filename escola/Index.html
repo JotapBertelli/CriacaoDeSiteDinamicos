@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consulta de alunos</title>
 </head>
 <body>
     <h1>Formulário de consulta a alunos</h1>
-    <form name="traz" action="http:/Fulano@Localhost" method="post"></form>
-    <input type="text" name="id"><br>
-    <input type="submit" value="Consultar">
+    <form name="traz" action="http://localhost/escola/Index.php" method="post">
+        <label for="id">ID do aluno</label><br>
+        <input type="text" name="id" id="id" required><br>
+        <input type="submit" value="Consultar">
+    </form>
 </body>
 </html>
